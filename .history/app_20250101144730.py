@@ -20,10 +20,10 @@ st.video('https://www.youtube.com/watch?v=DUrFgz1ZA58')
     # テキストボックス
 #    message = st.text_input('メッセージがあれば入力してください')
     # セレクトボックス
-#    age_category = st.selectbox(
-#        '送信する人',
-#       ('Eri', 'Mama')
-#    )
+    age_category = st.selectbox(
+        '送信する人',
+        ('Eri', 'Mama')
+    )
 
     # ボタン
 #    submit_btn = st.form_submit_button('送信')
@@ -31,10 +31,11 @@ st.video('https://www.youtube.com/watch?v=DUrFgz1ZA58')
 
 #   submit_btn = st.button('送信')
 #   cancel_btn = st.button('キャンセル')
-
-#    if submit_btn :
-#        st.text(f'メッセージが送信されました！ "{message}"')
-#        st.text(f'送信者： {age_category}')
+"""
+    if submit_btn :
+        st.text(f'メッセージが送信されました！ "{message}"')
+        st.text(f'送信者： {age_category}')
+"""
         
 #print(f'submit_btn: {submit_btn}')
 #print(f'cancelt_btn: {cancel_btn}')
