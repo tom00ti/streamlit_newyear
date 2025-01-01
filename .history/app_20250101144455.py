@@ -18,7 +18,7 @@ st.video('https://www.youtube.com/watch?v=DUrFgz1ZA58')
 # オートリロードせず、ボタンが押されたときだけリロードする。
 #with st.form(key='message_form'):
     # テキストボックス
-#    message = st.text_input('メッセージがあれば入力してください')
+    message = st.text_input('メッセージがあれば入力してください')
     # セレクトボックス
 """
     age_category = st.selectbox(
@@ -30,8 +30,8 @@ st.video('https://www.youtube.com/watch?v=DUrFgz1ZA58')
 #    submit_btn = st.form_submit_button('送信')
 #    cancel_btn = st.form_submit_button('キャンセル')
 
-#   submit_btn = st.button('送信')
-#   cancel_btn = st.button('キャンセル')
+ #   submit_btn = st.button('送信')
+ #   cancel_btn = st.button('キャンセル')
 """
     if submit_btn :
         st.text(f'メッセージが送信されました！ "{message}"')

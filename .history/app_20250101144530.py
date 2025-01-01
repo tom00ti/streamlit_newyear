@@ -17,16 +17,14 @@ st.video('https://www.youtube.com/watch?v=DUrFgz1ZA58')
 
 # オートリロードせず、ボタンが押されたときだけリロードする。
 #with st.form(key='message_form'):
-    # テキストボックス
-#    message = st.text_input('メッセージがあれば入力してください')
-    # セレクトボックス
-"""
-    age_category = st.selectbox(
-        '送信する人',
-        ('Eri', 'Mama')
-    )
-"""
-    # ボタン
+# テキストボックス
+message = st.text_input('メッセージがあれば入力してください')
+# セレクトボックス
+age_category = st.selectbox(
+    '送信する人',
+    ('Eri', 'Mama')
+)
+# ボタン
 #    submit_btn = st.form_submit_button('送信')
 #    cancel_btn = st.form_submit_button('キャンセル')
 
